@@ -25,3 +25,20 @@ function strCount(str, letter){
     b === true ? b = 1 : b = 0;
     return a + b === 1 ? true : false;
   }
+
+  //Is n divisible by x and y?
+const isDivisible = (n, x, y) => n % x === 0 && n % y === 0
+
+//power without Math.pow()
+const numberToPower = (number, power) => {
+  
+  let a = number;
+  
+  if(power === 0) return number / number
+  
+  for(let i = 1; i < power; i++) {
+    a *= number
+  }
+  
+  return a
+}
