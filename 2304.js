@@ -23,4 +23,4 @@ let humanYearsCatYearsDogYears = function(humanYears) {
 //ES6 String Addition 
 function joinStrings(string1, string2){
     return `${string1} ${string2}`
- 1
+}
