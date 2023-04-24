@@ -15,6 +15,13 @@ function strCount(str, letter){
     for(let l of arrayOfLetters) {
       if(letter === l) counter++;
     }
-    
+
     return counter
+  }
+
+  //XOR in JS
+  function xor(a, b) {
+    a === true ? a = 1 : a = 0;
+    b === true ? b = 1 : b = 0;
+    return a + b === 1 ? true : false;
   }
