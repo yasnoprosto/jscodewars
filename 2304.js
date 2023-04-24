@@ -19,3 +19,8 @@ let humanYearsCatYearsDogYears = function(humanYears) {
   function nearestSq(n){
     return Math.pow(Math.round(Math.sqrt(n)), 2)
 }
+
+//ES6 String Addition 
+function joinStrings(string1, string2){
+    return `${string1} ${string2}`
+ 1
