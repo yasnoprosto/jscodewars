@@ -37,4 +37,4 @@ const mango2 = (q, p) => {
 //what quarter of month
 const quarterOf = (month) => {
     return month <= 3 ? 1 : month <= 6 ? 2 : month <= 9 ? 3 : 4
-}ls
+}
