@@ -14,7 +14,7 @@ function integrate(coefficient, exponent) {
     return `${coefficient / (exponent + 1)}x^${exponent + 1}`
 }
 
-//Find Multiples of a Number
+//Find Multiples of a Number    
 function findMultiples(integer, limit) {
     let array = []
     let firstIntValue = integer;
