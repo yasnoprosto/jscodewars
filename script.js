@@ -41,7 +41,7 @@ function sixToast(num) {
   return Math.abs(6 - num);
 }
 
-// Adding li with each element of array
+// Adding li with each element of array.
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const btn = document.querySelector("#btn");
@@ -54,4 +54,5 @@ btn.addEventListener("click", () => {
     li.appendChild(document.createTextNode(element));
     ul.appendChild(li);
   }
+
 });
