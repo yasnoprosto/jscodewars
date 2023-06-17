@@ -15,3 +15,6 @@ function descendingOrder(n) {
 
 descendingOrder("1021")
 
+const descendingOrderOneLine = n => Number(n.toString().split("").sort().reverse().join(""))
+
+descendingOrderOneLine("1021")
